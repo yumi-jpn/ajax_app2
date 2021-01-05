@@ -32,7 +32,7 @@ function check() {
           // 既読状態であれば、灰色に変わるcssを適用するためのカスタムデータを追加している
           post.setAttribute("data-check", "true");
         } else if (item.checked === false) {
-          // 未読状態であれば、カスタムデータを削除している
+          //未読状態であれば、カスタムデータを削除している
           post.removeAttribute("data-check");
         }
       };
